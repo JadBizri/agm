@@ -41,6 +41,7 @@ header{
     background-color: #363753;
     padding-bottom: 0;
     padding-top: 8px;
+    flex-wrap: wrap;
 }
 
 #question {
@@ -74,8 +75,8 @@ header{
 }
 
 img {
-    max-width: 100%;
     width: 175px;
+    min-width: 175px;
 }
 
 .button {
@@ -95,7 +96,7 @@ img {
 .services-list {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }

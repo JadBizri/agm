@@ -85,11 +85,11 @@ img {
 
 .button {
     background-color: #5CD2C6;
-    border-style: none;
     font-size: 16px;
     padding: 10px;
     border-radius: 0.5em;
     color: black;
+    text-decoration: none;
 }
 
 .button:hover {    

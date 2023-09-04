@@ -1,0 +1,132 @@
+body {
+    background-color: #363753;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FEFEFE;
+    margin-top: 100px;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+header, main, footer {
+    padding: 16px 5%;
+}
+
+main {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #363753;
+    padding-bottom: 0;
+}
+
+#question {
+    font-size: 3.75rem;
+    margin: 0;
+    line-height: 3.75rem;
+    margin-bottom: 10px;
+}
+
+.keywords {
+    color: #5CD2C6;
+}
+
+.block {
+    display: block;
+}
+
+.info {
+    width: 37%;
+    align-items: center;
+    line-height: 1.75rem;
+    color: #dfe3ee;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+img {
+    max-width: 100%;
+    width: 175px;
+}
+
+.button {
+    background-color: #5CD2C6;
+    border-style: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0.5em;
+    color: #ffffff;
+}
+
+.button:hover {    
+    background-color: #2a9a8f;
+    cursor: pointer;
+}
+
+.services-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.services-list li {
+    background-color: #5CD2C6;
+    padding: 20px;
+    border-radius: 0.5em;
+    color: #ffffff;
+}
+
+.link {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #5CD2C6;
+}
+
+.bundles {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bundle {
+    padding: 8px;
+    background-color: #5CD2C6;
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 250px;
+}
+
+.bundle ul {
+    text-align: left;
+}

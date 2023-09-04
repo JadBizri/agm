@@ -60,7 +60,7 @@ header{
 }
 
 .info {
-    width: 37%;
+    padding: 0 15%;
     align-items: center;
     line-height: 1.75rem;
     color: #dfe3ee;

@@ -43,9 +43,10 @@ header{
     width: 100%;
     box-sizing: border-box;
     background-color: #363753;
-    padding-bottom: 0;
+    padding-bottom: 8px;
     padding-top: 8px;
     flex-wrap: wrap;
+    border-bottom: solid;
 }
 
 #question {
@@ -132,13 +133,12 @@ img {
     width: 40%;
     min-width: 250px;
     border-radius: 0.5em;
-    
     color: black;
 }
 
 .bundle p {
     padding: 0 35px;
-    color: #363753;
+    color: #333333;
     margin: 0;
     margin-top: 5px;
 }
